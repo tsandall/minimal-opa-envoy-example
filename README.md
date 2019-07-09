@@ -97,7 +97,7 @@ spec:
           - "--config-path"
           - "/config/envoy.yaml"
         - name: opa
-          image: openpolicyagent/opa:0.12.0-istio-4
+          image: openpolicyagent/opa:0.12.1-istio-13
           securityContext:
             runAsUser: 1111
           volumeMounts:
