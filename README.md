@@ -72,7 +72,7 @@ spec:
     spec:
       initContainers:
         - name: proxy-init
-          image: openpolicyagent/proxy_init
+          image: openpolicyagent/proxy_init:v2
           args: ["-p", "8000", "-u", "1111"]
           securityContext:
             capabilities:
